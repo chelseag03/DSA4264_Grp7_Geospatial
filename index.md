@@ -117,10 +117,12 @@ Among linear models, OLS, Ridge, and Lasso achieve nearly identical performance 
 
 As this project focuses on estimating the effect of school proximity, the OLS hedonic pricing model is used as the primary model due to its interpretability. Table 2 shows the estimated effect, controlling for flat size, storey level, remaining lease, town, MRT distance, hawker distance, and flat type.
 
+<div align="center">
 | Distance Band | Coefficient | p-value     | 95% CI              | Interpretation                 |
 |---------------|-------------|-------------|---------------------|--------------------------------|
 | <1km          | -$125       | 0.596       | [-\$588, $338]       | Not statistically significant |
 | 1–2km         | +$1324      | <0.001 ***  | [\$1012, $1637]      | Highly significant            |
+</div>
 
 <p align="center">
 <i>Table 2: Effect of school proximity</i>
