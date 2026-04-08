@@ -44,3 +44,4 @@ Run each script one at a time:
 python hdb_amenity_data_cleaning.py
 python good_pri_sch_data.py
 python dist_bands.py
+python <model py>
